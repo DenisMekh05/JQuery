@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: blueviolet;
+}
+
+.screen {
+    width: 800px;
+    height: 400px;
+    background: #000;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.paddle {
+    width: 16px;
+    height: 75px;
+    top: 0;
+    background: white;
+    position: absolute;
+}
+
+#paddle1 {
+    left: 0;
+}
+
+#paddle2 {
+    right: 0;
+}
+
+#ball {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    background: white;
+    top: 50%;
+    left: 50%;
+}
