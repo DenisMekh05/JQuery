@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    height: 100px;
+    width: 100px;
+    background: #000;
+}
+button {
+    display: inline;
+    width: 100px;
+}
