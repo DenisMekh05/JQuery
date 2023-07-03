@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+}
+.container1{
+    height: 200px;
+    width: 400px;
+    background: #808080;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block1{
+    height: 50px;
+    width: 50px;
+    background: green;
+}
+b{
+    display: block;
+}

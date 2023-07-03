@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin-inline: auto;
+}
+.add-phone{
+    color: white;
+    background: green;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 5px;
+    margin: 15px 0;
+}
+.phones{
+    display: flex;
+    gap: 20px;
+}
+.remove-phone {
+    color: white;
+    background: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 5px;
+    margin: 15px 0;
+}
+.change-phone {
+    color: white;
+    background: rgb(0, 36, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 5px;
+    margin: 15px 0;
+}
+.phone{
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.phone img{
+    width: 100%;
+}
